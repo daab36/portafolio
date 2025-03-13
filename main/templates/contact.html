@@ -1,0 +1,590 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block title %}
+Contact Page
+{%endblock title %}
+
+{% block extrahead%}
+<link rel="stylesheet" href="{% static 'css/contact.css'%}">
+{% endblock extrahead%}
+
+{%block content %}
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<div class="container">
+    <div class="header">
+        <div class="full-name">
+            <span class="first-name">DANIEL</span>
+            <span class="last-name">ARISMENDI</span>
+        </div>
+        <div class="contact-info">
+            <span class="email">Email: </span>
+            <span class="email-val">daab36@gmail.com</span>
+            <span class="separator"></span>
+            <span class="phone">Phone: </span>
+            <span class="phone-val">872-463-2955</span>
+        </div>
+
+        <div class="about">
+            <span class="position">Data Analyst </span>
+            <span class="desc">
+                I am a Political scientist with postgraduate studies in Economics and Photography. Trained for
+                information gathering, production of investigative reports, accompaniment of community organizational
+                processes, community training, curatorial processes, and analysis of public policies. Skills for
+                quantitative and qualitative research, use of programming, group work, and the construction and
+                coordination of transdisciplinary dialogues.
+            </span>
+        </div>
+    </div>
+    <div class="details">
+        <div class="section">
+            <div class="section__title">Experience</div>
+            <div class="section__list">
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">I.C Stars</div>
+                        <div class="addr">Chicago, IL</div>
+                        <div class="duration">Nov 2024 - Mar 2025</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">DATA ANALYST INTERN</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Developed full-stack web applications using JavaScript, React, HTML, and CSS,
+                                    collaborating in agile teams to
+                                    design and deploy a nonprofit-focused platform that streamlined donor engagement and
+                                    improved user
+                                    experience by 40%.</li>
+                                <li>Led cross-functional teams of 4+ members in a 12-week sprint, utilizing GitHub for
+                                    version control and project
+                                    management tools (Microsoft Planner) to deliver a client-ready MVP for a
+                                    Chicago-based nonprofit, achieving
+                                    100% stakeholder satisfaction.</li>
+                                <li>Built 3+ side projects (portfolio, API-driven dashboard) to deepen technical
+                                    expertise in React state
+                                    management, responsive design, and RESTful API integration.</li>
+                                <li>Enhanced +1.000 hours of leadership skills through IC Stars’ social justice-focused
+                                    curriculum, including
+                                    workshops on adaptive leadership, conflict resolution, and community-driven
+                                    problem-solving.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">United Nations Development Programme</div>
+                        <div class="addr">Bogota, COL</div>
+                        <div class="duration">May 2023 - Dec 2023</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">SENIOR CONSULTANT</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Led forensic analysis of 100+ case files (2003–2016 conflict period) to identify
+                                    human rights violations and
+                                    accountability gaps, synthesizing victim testimonies, open-source intelligence, and
+                                    legal documents into 15+
+                                    evidence-based reports for Colombia’s transitional justice tribunals.</li>
+                                <li>Automated compliance tracking using Microsoft Power Apps and Python, streamlining
+                                    verification of 50+ victim
+                                    accreditation requests against Law 1922/2018 standards and reducing processing
+                                    errors by 25%.</li>
+                                <li>Designed Power BI dashboards to map conflict patterns across 10+ prioritized
+                                    municipalities, enabling data-
+                                    driven identification of 30+ high-priority cases for judicial review and restorative
+                                    justice measures.</li>
+                                <li>Managed secure document workflows via SharePoint, ensuring 100% compliance with
+                                    confidentiality protocols
+                                    for 500+ sensitive case files and enabling real-time collaboration with 8+
+                                    stakeholders (PNUD, victim advocacy
+                                    groups).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">Unit for Comprehensive Care and Reparation for Victims</div>
+                        <div class="addr">Bogota, COL</div>
+                        <div class="duration">May 2018 - Dec 2022</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">SENIOR DATA ANALYST</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Automated humanitarian data workflows using Microsoft Power Automate, reducing
+                                    manual data collection time
+                                    by 35% and enabling real-time tracking of 500+ emergency cases (individual and mass
+                                    crises) across conflict
+                                    zones.</li>
+                                <li>Built interactive Power BI dashboards to visualize geographic and statistical trends
+                                    in humanitarian emergencies,
+                                    synthesizing data from 10+ sources (SharePoint, government databases) to inform
+                                    rapid response strategies for
+                                    senior leadership.</li>
+                                <li>Designed a Power Apps solution to digitize emergency reporting processes, improving
+                                    data accuracy by 25% and
+                                    accelerating incident resolution for 30+ regional agencies.</li>
+                                <li>Led cross-functional knowledge-sharing initiatives, producing 15+ analytical reports
+                                    on emergency prevention
+                                    and response metrics that directly influenced policy updates for Colombia’s
+                                    humanitarian aid framework.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__list">
+            <div class="section__list-item">
+                <div class="left">
+                    <div class="name">District Secretary of Government - Directorate of Coexistence and Social Dialogue
+                    </div>
+                    <div class="addr">Bogota, COL</div>
+                    <div class="duration">Mar 2020 - Sep 2021</div>
+                </div>
+                <div class="right">
+                    <div class="name">SENIOR DATA
+                        ANALYST CONFLICT AND HUMAN RIGHTS OBSERVATORY</div>
+                    <div class="desc">
+                        <ul>
+                            <li>Designed and automated project workflows using Microsoft Power Apps and Power Automate,
+                                reducing manual
+                                reporting efforts by 30% and enabling real-time tracking of 20+ citywide human rights
+                                initiatives across 20 districts.</li>
+                            <li>Built a centralized SharePoint knowledge hub to streamline collaboration for the
+                                District Human Rights Network,
+                                improving stakeholder access to training materials, policy templates, and progress
+                                dashboards for 50+
+                                community partners.</li>
+                            <li>Led data-driven strategy development, analyzing qualitative and quantitative metrics
+                                (via Power BI) to optimize
+                                citizen engagement programs, resulting in a 25% increase in community participation in
+                                social dialogue initiatives.</li>
+                            <li>Managed end-to-end implementation of 15+ citizen-led projects, including budget
+                                alignment, vendor contracts,
+                                and compliance reporting, ensuring 100% on-time delivery of key milestones for the $1.2M
+                                Social Cohesion
+                                Investment Project.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section__list">
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">District Secretary of Government - Directorate of Coexistence and Social
+                            Dialogue</div>
+                        <div class="addr">Bogota, COL</div>
+                        <div class="duration">Mar 2020 - Sep 2021</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">SENIOR DATA
+                            ANALYST CONFLICT AND HUMAN RIGHTS OBSERVATORY</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Designed and automated project workflows using Microsoft Power Apps and Power
+                                    Automate, reducing manual
+                                    reporting efforts by 30% and enabling real-time tracking of 20+ citywide human
+                                    rights initiatives across 20 districts.</li>
+                                <li>Built a centralized SharePoint knowledge hub to streamline collaboration for the
+                                    District Human Rights Network,
+                                    improving stakeholder access to training materials, policy templates, and progress
+                                    dashboards for 50+
+                                    community partners.</li>
+                                <li>Led data-driven strategy development, analyzing qualitative and quantitative metrics
+                                    (via Power BI) to optimize
+                                    citizen engagement programs, resulting in a 25% increase in community participation
+                                    in social dialogue initiatives.</li>
+                                <li>Managed end-to-end implementation of 15+ citizen-led projects, including budget
+                                    alignment, vendor contracts,
+                                    and compliance reporting, ensuring 100% on-time delivery of key milestones for the
+                                    $1.2M Social Cohesion
+                                    Investment Project.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section__title">Education</div>
+                    <div class="section__list">
+                        <div class="section__list-item">
+                            <div class="left">
+                                <div class="name">University of Los Andes</div>
+                                <div class="addr">Bogota, COL</div>
+                                <div class="duration">May 2022</div>
+                            </div>
+                            <div class="right">
+                                <div class="name">Postgraduate Degree in Economics</div>
+                            </div>
+                        </div>
+                        <div class="section__list-item">
+                            <div class="left">
+                                <div class="name">National University of Colombia</div>
+                                <div class="addr">Bogota, COL</div>
+                                <div class="duration">Jan 2015</div>
+                            </div>
+                            <div class="right">
+                                <div class="name">BA in Political Science</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section__title">Skills</div>
+                    <div class="skills">
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    Python</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" checked />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    Excel</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" checked />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" checked />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    Microsoft Power Platform</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" checked />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    SQL</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" checked />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    R Studio</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    Qgis</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    ArcGis</div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="left">
+                                <div class="name">
+                                    Javascript
+                                </div>
+                            </div>
+                            <div class="right">
+                                <input id="ck1" type="checkbox" checked />
+                                <label for="ck1"></label>
+                                <input id="ck2" type="checkbox" checked />
+                                <label for="ck2"></label>
+                                <input id="ck3" type="checkbox" checked />
+                                <label for="ck3"></label>
+                                <input id="ck4" type="checkbox" />
+                                <label for="ck4"></label>
+                                <input id="ck5" type="checkbox" />
+                                <label for="ck5"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">
+                                CSS</div>
+                        </div>
+                        <div class="right">
+                            <input id="ck1" type="checkbox" checked />
+                            <label for="ck1"></label>
+                            <input id="ck2" type="checkbox" checked />
+                            <label for="ck2"></label>
+                            <input id="ck3" type="checkbox" checked />
+                            <label for="ck3"></label>
+                            <input id="ck4" type="checkbox" checked />
+                            <label for="ck4"></label>
+                            <input id="ck5" type="checkbox" />
+                            <label for="ck5"></label>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">
+                                HTML</div>
+                        </div>
+                        <div class="right">
+                            <input id="ck1" type="checkbox" checked />
+                            <label for="ck1"></label>
+                            <input id="ck2" type="checkbox" checked />
+                            <label for="ck2"></label>
+                            <input id="ck3" type="checkbox" checked />
+                            <label for="ck3"></label>
+                            <input id="ck4" type="checkbox" checked />
+                            <label for="ck4"></label>
+                            <input id="ck5" type="checkbox" />
+                            <label for="ck5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section__title">
+                        Interests
+                    </div>
+                    <div class="section__list">
+                        <div class="section__list-item">
+                            Football, Phtography, Politics.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="details">
+        <div class="section">
+            <div class="section__title">Aditional Experience</div>
+            <div class="section__list">
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">Organization of Ibero-American States OEI </div>
+                        <div class="addr">Bogota, Col</div>
+                        <div class="duration">Jun 2016 - Sep 2020</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">DATA ANALYST</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Conducted in-depth legal and contextual research for 15+ transitional justice cases,
+                                    analyzing historical data,
+                                    public records, and testimonies to identify patterns of human rights violations and
+                                    support evidence-based policy
+                                    recommendations.</li>
+                                <li>Collaborated with 3+ national institutions (Truth Commission, Missing Persons Unit)
+                                    to synthesize findings into
+                                    10+ analytical reports, improving case resolution efficiency by 25% and ensuring
+                                    compliance with international
+                                    human rights standards.</li>
+                                <li>Designed and delivered training workshops for 50+ stakeholders (former combatants,
+                                    legal teams) to clarify
+                                    procedural frameworks and enhance cooperation with Colombia’s peace tribunals.</li>
+                                <li>Enhanced +1.000 hours of leadership skills through IC Stars’ social justice-focused
+                                    curriculum, including
+                                    workshops on adaptive leadership, conflict resolution, and community-driven
+                                    problem-solving.</li>
+                                <li>Streamlined data tracking systems for case management, reducing reporting errors by
+                                    30% and enabling real-
+                                    time updates for senior leadership on critical peace-building milestones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__list">
+            <div class="section__list-item">
+                <div class="left">
+                    <div class="name">National Consulting Center</div>
+                    <div class="addr">Bogota, Col</div>
+                    <div class="duration">Oct 2018 - Dec 2018</div>
+                </div>
+                <div class="right">
+                    <div class="name">PROJECT SPECIALIST</div>
+                    <div class="desc">
+                        <ul>
+                            <li>Conducted quantitative and qualitative market research for The Ministry of
+                                Information and Communication
+                                Technologies (MICT), leveraging tools like Excel and Power BI and Python to analyze
+                                datasets and deliver
+                                actionable insights that informed strategic decision-making.</li>
+                            <li>Streamlined data collection workflows by automating report generation, reducing
+                                manual processing time by
+                                20% and improving team efficiency for high-priority deliverables.</li>
+                            <li>Collaborated with cross-functional teams to synthesize findings into client-ready
+                                presentations, ensuring 100%
+                                on-time delivery of reports aligned with project scopes and stakeholder
+                                expectations.</li>
+                            <li>Supported senior analysts in designing research methodologies and maintaining
+                                centralized project
+                                documentation, enhancing transparency and version control for concurrent consulting
+                                engagements.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section__list">
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">Organization of Ibero-American States OEI </div>
+                        <div class="addr">Bogota, Col</div>
+                        <div class="duration">Mar 2018 - Aug 2018</div>
+                    </div>
+                    <div class="right">
+                        <div class="name">RESEARCHER</div>
+                        <div class="desc">
+                            <ul>
+                                <li>Led cross-functional collaboration with 10+ stakeholders (government agencies, NGOs,
+                                    and international
+                                    organizations) to monitor and report on regional progress of peacebuilding
+                                    initiatives, ensuring alignment with
+                                    15+ key performance indicators (KPIs).</li>
+                                <li>Developed and streamlined data collection processes for territorial peace metrics,
+                                    analyzing 50+ public reports
+                                    and synthesizing findings into actionable recommendations for policymakers.</li>
+                                <li>Coordinated regional field operations across 8 municipalities, conducting on-site
+                                    evaluations to identify
+                                    implementation gaps and improve compliance with peace agreement goals by 20%.</li>
+                                <li>Authored 5 strategic policy briefs for senior leadership, highlighting trends in
+                                    post-conflict development and
+                                    proposing solutions adopted by the Senate’s technical committee.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Council of the Suba Muisca Indigenous Community </div>
+                            <div class="addr">Bogota, Col</div>
+                            <div class="duration">Feb 2018 - Aug 2018</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">SOCIAL ANALYST</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>Designed and executed social integration programs for 200+ at-risk families, achieving 100% compliance with
+                                        individualized care plans (IAPs) and improving access to food security initiatives for Indigenous communities in
+                                        collaboration with the Muisca de Suba Indigenous Council.</li>
+                                    <li>Automated data collection workflows using SQL to digitize 500+ family case files (SIRBE system), reducing
+                                        manual entry errors by 30% and accelerating eligibility assessments for social aid programs.</li>
+                                    <li>Led cross-functional workshops for 150+ participants on social services access, resource prioritization, and
+                                        compliance frameworks, fostering community engagement and achieving 95% attendance targets.
+                                    </li>
+                                    <li>Streamlined interagency collaboration to track program KPIs (e.g., household visits, workshop participation),
+                                        ensuring real-time reporting to stakeholders and securing a 20% increase in project funding renewal.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__list">
+                        <div class="section__list-item">
+                            <div class="left">
+                                <div class="name">National Center for Historical Memory, Observatory of Memory and Conflict</div>
+                                <div class="addr">Bogota, Col</div>
+                                <div class="duration">Jan 2015 - Dec 2017</div>
+                            </div>
+                            <div class="right">
+                                <div class="name">JUNIOR DATA ANALYST</div>
+                                <div class="desc">
+                                    <ul>
+                                        <li>Automated data entry workflows using Excel VBA macros, reducing manual processing time by 40% while
+                                            updating 5,000+ historical conflict cases in a national database, ensuring 99% accuracy in metadata tagging.</li>
+                                        <li>Designed standardized Excel templates with advanced formulas (INDEX-MATCH, PivotTables) to organize
+                                            testimonial, photographic, and documentary evidence, creating a centralized repository for 10,000+ records
+                                            across 20+ conflict-affected regions.</li>
+                                        <li>Implemented data validation protocols in Excel to audit and reconcile discrepancies in historical records,
+                                            improving reporting efficiency by 30% for monthly compliance updates to government stakeholders.
+                                        </li>
+                                        <li>Managed sensitive datasets with strict confidentiality, adhering to data security standards while synthesizing
+                                            conflict patterns into actionable insights for 15+ policy briefs used in national reconciliation initiatives.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock content %}
